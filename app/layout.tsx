@@ -8,9 +8,12 @@ import { Suspense } from "react"
 import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
-  title: "chalklet",
-  description: "chalklet — created with v0",
-  generator: "v0.app",
+  title: "ChalkLet",
+  description: "Your collaborative online whiteboard",
+  generator: "Ayush Kumar",
+  icons: {
+    icon: "/chalklet.png",
+  },
 }
 
 export default function RootLayout({
